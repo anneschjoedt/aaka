@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  margin: 2em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(236, 236, 229);
+  font-size: 14px;
+}
+
+#logo {
+  width: 150px;
+}
+
+#logo-name {
+  margin-top: 0;
+}
+
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: tomato;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.collection-caption-container {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.collection-caption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 52px;
+  color: white;
+}
