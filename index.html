@@ -10,14 +10,16 @@
 <body>
     <div class="flex-container" >
         <div class="header">
-            <div class="logo-container">
-                <img src="/img/logo.png" id="logo">
-                <p id="logo-name">ANNE ASTRID KROGH-ANDERSEN</p>
-            </div>
+                <a href = "index.html" target = "_self" class="logo-container"> 
+                    <img src="/img/logo.png" alt="logo" id="logo" aria-label="logo"/> 
+                    <p id="logo-name">ANNE ASTRID KROGH-ANDERSEN</p>
+                 </a>
         </div>
         <div class="collection-caption-container"><h2 class="collection-caption">portraits</h2></div>
         <div class="project-container">
-            <li class="flex-item">1</li>
+            <a href = "beach.html" target = "_self"> 
+                <li class="flex-item" id="beach" onclick="newPage()">1</li>
+             </a>
             <li class="flex-item">2</li>
             <li class="flex-item">3</li>
             <li class="flex-item">4</li>
@@ -48,11 +50,8 @@
             <li class="flex-item">10</li>
             <li class="flex-item">11</li>
             <li class="flex-item">12</li>
-        </div>s
         </div>
-
-
-    </flex-container>
-    
+        </div>
+    <script src="script.js"></script>
 </body>
 </html>
