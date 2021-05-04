@@ -12,24 +12,21 @@
 <body>
   <div class="flex-container">
     <div class="header">
+      <a href="index.html" target="_self" class="back-btn">
+        <p>Back</p>
+      </a>
       <a href="index.html" target="_self" class="logo-container">
         <img src="/img/logo.png" alt="logo" id="logo" aria-label="logo" />
       </a>
     </div>
 
     <div class="specific-project-container">
-      <div>
-        <img src="/img/bedstemor1.jpg" class="flex-image" id="img-one" onclick="on(id)">
-      </div>
-      <div class="overlay" id="img-onee" onclick="off(id)">
+      <img src="/img/bedstemor1.jpg" class="flex-image" id="img-one" onclick="on(id)">
+      <div class="overlay img-container" id="img-onee" onclick="off(id)">
         <img src="/img/bedstemor1.jpg" id="img-overlay" class="flex-image">
       </div>
-
-      <div>
-        <img src="img/bedstemor2.jpg" class="flex-image" id="img-two" onclick="on(id)">
-      </div>
-
-      <div class="overlay" id="img-twoe" onclick="off(id)">
+      <img src="img/bedstemor2.jpg" class="flex-image" id="img-two" onclick="on(id)">
+      <div class="overlay img-container" id="img-twoe" onclick="off(id)">
         <img src="img/bedstemor2.jpg" id="img-overlay" class="flex-image">
       </div>
     </div>
