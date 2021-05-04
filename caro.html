@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -14,13 +15,12 @@
         <div class="header">
             <a href="index.html" target="_self" class="logo-container">
                 <img src="/img/logo.png" alt="logo" id="logo" aria-label="logo" />
-                <p id="logo-name">ANNE ASTRID KROGH-ANDERSEN</p>
             </a>
         </div>
         <div class="specific-project-container">
-            <img src="/img/caro1.jpg" class="flex-image" id="img-one" onclick="on(id)">
+            <img src="img/caro1.jpg" class="flex-image" id="img-one" onclick="on(id)">
             <div class="overlay" id="img-onee" onclick="off(id)">
-                <img src="/img/caro1.jpg" id="img-overlay" class="flex-image">
+                <img src="img/caro1.jpg" id="img-overlay" class="flex-image">
             </div>
 
             <img src="img/caro-2.jpg" class="flex-image" id="img-two" onclick="on(id)">
@@ -37,6 +37,13 @@
             <div class="overlay" id="img-foure" onclick="off(id)">
                 <img src="img/caro-4.jpg" id="img-overlay" class="flex-image">
             </div>
+
+        </div>
+        <div class="img-description">
+            <p><i>Caro - Copenhagen, Denmark 2019</i> <br> The salty and stagnant smell of the
+                lagoon
+                mixes with the chemical
+                and sharp smell of the factories. <br><br> </p>
         </div>
     </div>
     <script src="script.js"></script>
