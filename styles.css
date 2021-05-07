@@ -101,7 +101,19 @@ body {
 
   .back-btn {
     display: flex;
+    flex-direction: row;
     margin: 1em;
+    border: 1px solid white;
+    align-self: flex-start;
+  }
+
+  .back-btn-p {
+    margin: 0.5em;
+  }
+
+  .back-arrow {
+    margin-top: 0.5em;
+    margin-right: 0.5em;
   }
 
   .flex-item {
@@ -367,10 +379,14 @@ i {
 }
 
 .about-title {
+  display: flex;
+  margin: 1em;
   color: white;
 }
 
 .about-description {
+  display: flex;
+  margin: 5em;
   color: white;
   max-width: 50%;
 }
