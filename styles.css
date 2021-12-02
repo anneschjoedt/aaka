@@ -205,7 +205,6 @@ footer,
   }
 
   .flex-item {
-    background: tomato;
     width: 250px;
     height: 250px;
     object-fit: cover;
