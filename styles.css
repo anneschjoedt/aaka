@@ -53,6 +53,11 @@ p {
   align-items: center;
 }
 
+.list {
+  width: fit-content;
+  background-color: red;
+}
+
 .main-about {
   display: flex;
   justify-content: center;
@@ -62,7 +67,15 @@ p {
 
 .header-block {
   margin: 3em 2em;
-  max-width: 300px;
+  max-width: 350px;
+}
+
+.header-about {
+  margin-top: 4em;
+}
+
+.header-about > p {
+  margin-top: 1em;
 }
 
 .contact-block {
@@ -210,7 +223,7 @@ footer {
 }
 
 .menu-tag {
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 400;
   padding: 0.2em;
   margin: 0 0.5em;
@@ -220,6 +233,10 @@ footer {
 
 .menu-tag:hover:not(h1) {
   background-color: #c1d1bf;
+}
+
+.logo {
+  font-size: 16px;
 }
 
 .border {
@@ -370,7 +387,7 @@ footer {
 
   .dropdown-content {
     top: 6.5%;
-    right: 22px;
+    right: 85px;
     left: unset;
     width: 300px;
   }
@@ -462,7 +479,6 @@ footer {
 
   .introduction-h1 {
     font-size: 40px;
-    letter-spacing: 0.01em;
   }
 
   .introduction-p {
