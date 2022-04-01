@@ -382,14 +382,20 @@ footer {
   }
 
   .menu-tag {
-    font-size: 1.5em;
+    font-size: 16px;
+  }
+
+  .nav-btn-div {
+    width: 340px;
+    justify-content: space-around;
   }
 
   .dropdown-content {
-    top: 6.5%;
-    right: 85px;
+    top: 4.8%;
+    right: 0px;
     left: unset;
-    width: 300px;
+    width: 328px;
+    font-size: 16px;
   }
 
   .flex-item {
